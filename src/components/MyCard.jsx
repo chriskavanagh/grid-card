@@ -11,31 +11,35 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 const MyCard = props => {
   return (
     <div className="card">
-      <div className="profile-sidebar">
-        <img
-          className="profile-image"
-          src="https://i.pravatar.cc/125"
-          alt="Face"
-        />
+      <div className="first-column">
+        <div className="profile-sidebar">
+          <img
+            className="profile-image"
+            src="https://i.pravatar.cc/125"
+            alt="Face"
+          />
 
-        <ul className="social-list">
-          <li className="social-link">
-            <NavLink to="#" className="social-link">
-              <FontAwesomeIcon icon="address-card" color="green" />
-            </NavLink>
-          </li>
-          <li className="social-link">
-            <NavLink to="#" className="social-link">
-              <FontAwesomeIcon icon={faBalanceScaleLeft} color="green" />
-            </NavLink>
-          </li>
-          <li className="social-link">
-            <NavLink to="#" className="social-link">
-              <FontAwesomeIcon icon="coffee" color="green" />
-            </NavLink>
-          </li>
-        </ul>
+          <ul className="social-list">
+            <li className="social-link">
+              <NavLink to="#" className="social-link">
+                <FontAwesomeIcon icon="address-card" color="green" />
+              </NavLink>
+            </li>
+            <li className="social-link">
+              <NavLink to="#" className="social-link">
+                <FontAwesomeIcon icon={faBalanceScaleLeft} color="green" />
+              </NavLink>
+            </li>
+            <li className="social-link">
+              <NavLink to="#" className="social-link">
+                <FontAwesomeIcon icon="coffee" color="green" />
+              </NavLink>
+            </li>
+          </ul>
+        </div>
+      </div>
 
+      <div className="second-column">
         <div className="profile-main">
           <h2 className="profile-name">Ramsey Harper</h2>
           <p className="profile-position">Graphic Designer</p>
