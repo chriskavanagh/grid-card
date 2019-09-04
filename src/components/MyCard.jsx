@@ -22,17 +22,32 @@ const MyCard = props => {
           <ul className="social-list">
             <li className="social-link">
               <NavLink to="#" className="social-link">
-                <FontAwesomeIcon icon="address-card" color="green" />
+                <FontAwesomeIcon
+                  className="iconHover"
+                  icon="address-card"
+                  size="lg"
+                  color="green"
+                />
               </NavLink>
             </li>
             <li className="social-link">
               <NavLink to="#" className="social-link">
-                <FontAwesomeIcon icon={faBalanceScaleLeft} color="green" />
+                <FontAwesomeIcon
+                  className="iconHover"
+                  icon={faBalanceScaleLeft}
+                  size="lg"
+                  color="green"
+                />
               </NavLink>
             </li>
             <li className="social-link">
               <NavLink to="#" className="social-link">
-                <FontAwesomeIcon icon="coffee" color="green" />
+                <FontAwesomeIcon
+                  className="iconHover"
+                  icon="coffee"
+                  size="lg"
+                  color="green"
+                />
               </NavLink>
             </li>
           </ul>
