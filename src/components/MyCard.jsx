@@ -1,12 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import {
-  faAddressBook,
-  faDiceFour,
-  faBalanceScaleLeft
-} from "@fortawesome/free-solid-svg-icons";
+import { faBalanceScaleLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { fab } from "@fortawesome/free-brands-svg-icons";
+//import { fab } from "@fortawesome/free-brands-svg-icons";
 
 const MyCard = props => {
   return (
