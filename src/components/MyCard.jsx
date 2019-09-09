@@ -1,3 +1,4 @@
+// uses Main.css
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { faBalanceScaleLeft } from "@fortawesome/free-solid-svg-icons";

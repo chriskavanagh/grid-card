@@ -74,5 +74,6 @@ p {
 @media (max-width: 720px) {
   .card {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
   }
 }
