@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { faBalanceScaleLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const MyCard = props => {
+const GridCard = props => {
   return (
     <div className="card">
       <div className="first-column">
@@ -65,4 +65,4 @@ const MyCard = props => {
   );
 };
 
-export default MyCard;
+export default GridCard;
