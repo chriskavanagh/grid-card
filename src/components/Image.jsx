@@ -1,10 +1,10 @@
 import React from "react";
 
-const ProfileImg = props => {
+const ProfileImg = ({ size }) => {
   return (
     <img
       className="profile-image"
-      src={`https://i.pravatar.cc/${props.size}`}
+      src={`https://i.pravatar.cc/${size}`}
       alt="Face"
     />
   );
