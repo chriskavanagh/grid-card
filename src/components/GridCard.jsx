@@ -1,5 +1,6 @@
 import React from "react";
 import useWinSize from "../hooks/WindowSizeHook";
+import ProfileImg from "./Image";
 import { NavLink } from "react-router-dom";
 import { faBalanceScaleLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,19 +12,7 @@ const GridCard = props => {
     <div className="card">
       <div className="first-column">
         <div className="profile-sidebar">
-          {width > 700 ? (
-            <img
-              className="profile-image"
-              src="https://i.pravatar.cc/170"
-              alt="Face"
-            />
-          ) : (
-            <img
-              className="profile-image"
-              src="https://i.pravatar.cc/150"
-              alt="Face"
-            />
-          )}
+          {width > 700 ? <ProfileImg size={170} /> : <ProfileImg size={150} />}
 
           <ul className="social-list">
             <li className="social-link">
